@@ -1,0 +1,18 @@
+html {
+  font-size: 14px;
+}
+
+@media (max-width: 500px) {
+  img {
+    display:none;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}

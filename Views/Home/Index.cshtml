@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <b><h1 class="display-1">Welcome</h1></b>
+    <div class="left">
+ <br /><br />
+        <h3>
+            <b> This WebSite Provides You Better Management Of Budget And It Will Tell You How Much Expense You Are Doing In Every Month</b></h3>
+        <br /> <h3><a asp-action="Index" asp-controller="Category"><button>Get Started</button></a></h3>
+    </div>
+    <div class="right">
+       <img src="~/Images/Expenser.jpg" alt="My Image" height="300px" width="300px">
+       <br />
+    
+    </div>
+</div>
+<style>
+    .left{
+        float:left;
+        align-content:center;
+        margin:10px;
+        margin-left:120px;
+        height:50%;
+        width:40%;
+     
+    }
+
+    .right {
+        float: left;
+        align-content: center;
+        margin: 10px;
+        height: 50%;
+        width: 40%;
+      
+    }
+</style>
